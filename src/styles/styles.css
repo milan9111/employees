@@ -1,0 +1,80 @@
+.app__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Oxygen", sans-serif;
+}
+
+.app__leftside {
+  width: 50%;
+}
+
+.app__leftside h3 {
+  text-align: center;
+}
+
+.app__rightside {
+  width: 50%;
+}
+
+.app__fullNameEmployees {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-right: 3px solid #c0bfbf;
+  margin-right: -100px;
+  margin-top: 40px;
+  padding-right: 120px;
+}
+
+.app__box {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.app__letter {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.app__activeFullName {
+  color: blue;
+}
+
+.app__input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.app__box-birthday h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.app__months {
+  padding-top: 20px;
+  margin-left: 160px;
+  border-top: 3px solid #c0bfbf;
+}
+
+.app__fullData {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.app__noData {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
